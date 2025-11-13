@@ -26,14 +26,14 @@ This will generate all theme files from the templates.
 After generating the theme files, source your preferred theme in your `~/.tmux.conf`:
 
 ```bash
-# Example: Using the MNML Mono Dark theme
-source-file ~/.config/tmux/themes/black-atom-mnml-mono-dark.conf
+# Example: Using the MNML Clay Dark theme
+source-file ~/.config/tmux/themes/black-atom-mnml-clay-dark.conf
 ```
 
 Or if you cloned to a different location:
 
 ```bash
-source-file ~/path/to/black-atom-industries/tmux/themes/mnml/black-atom-mnml-mono-dark.conf
+source-file ~/path/to/black-atom-industries/tmux/themes/mnml/black-atom-mnml-clay-dark.conf
 ```
 
 ## Available Themes
@@ -45,8 +45,8 @@ source-file ~/path/to/black-atom-industries/tmux/themes/mnml/black-atom-mnml-mon
 - `black-atom-jpn-murasaki-yoru` - Purple night theme (dark)
 
 ### MNML Collection (Minimal)
-- `black-atom-mnml-mono-dark` - Monochrome dark
-- `black-atom-mnml-mono-light` - Monochrome light
+- `black-atom-mnml-clay-dark` - Clay dark
+- `black-atom-mnml-clay-light` - Clay light
 - `black-atom-mnml-orange-dark` - Orange accent dark
 - `black-atom-mnml-orange-light` - Orange accent light
 - `black-atom-mnml-blue-dark` - Blue accent dark
