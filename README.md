@@ -4,7 +4,7 @@ Beautiful tmux color schemes from the Black Atom Industries theme collection.
 
 ## Installation
 
-### Using the Black Atom Core CLI
+### Using Deno
 
 1. Clone this repository:
 
@@ -13,10 +13,10 @@ git clone https://github.com/black-atom-industries/tmux.git
 cd tmux
 ```
 
-2. Generate theme files using the Black Atom Core CLI:
+2. Generate theme files (requires [Deno](https://deno.land/)):
 
 ```bash
-black-atom-core adapt
+deno task generate
 ```
 
 This will generate all theme files from the templates.
@@ -103,10 +103,10 @@ Each collection has its own styling philosophy:
 
 ## Development
 
-This repository uses the Black Atom adapter pattern. Theme files are generated from templates located in `themes/*/collection.template.conf`. To modify themes:
+This repository uses the Black Atom adapter pattern. Theme files are generated from templates using [Black Atom Core](https://jsr.io/@black-atom/core). To modify themes:
 
-1. Edit the appropriate template file
-2. Run `black-atom-core adapt` to regenerate theme files
+1. Edit the appropriate template file in `themes/*/collection.template.conf`
+2. Run `deno task generate` to regenerate theme files (or `deno task dev` for watch mode)
 3. Test the changes in tmux
 
 ## License
